@@ -13,6 +13,7 @@ mod tests {
     }
 
     #[test]
+    // Hello :wave:
     fn nightly_is_installed() {
         let output = std::process::Command::new("rustup")
             .arg("run")
